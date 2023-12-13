@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Kanban board</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./style.css'>
+    <script src="https://kit.fontawesome.com/1f67a78334.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <div class="toolbox">
+        <div class="priority">
+            <div class="lightpink color"></div>
+            <div class="lightgreen color"></div>
+            <div class="lightblue color"></div>
+            <div class="black color"></div>
+        </div>
+        <div class="action-btn">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- task area -->
+
+    <div class="modal">
+        <textarea class="text-area" placeholder="Enter the task"></textarea>
+        <div class="color-pallette">
+            <div class="lightpink pallette" data="active"></div>
+            <div class="lightgreen pallette" data="active"></div>
+            <div class="lightblue pallette" data="active"></div>
+            <div class="black pallette active" data="active"></div>
+        </div>
+    </div>
+
+    <div class="main-cont">
+        <!-- <div class="ticket">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">1234</div>
+            <div class="ticket-task">random task</div>
+            <div class="ticketLockOpen">
+            <div class="ticket-lock"><i class="fa-solid fa-lock"></i></div>
+            <div class="ticket-open"><i class="fa-solid fa-lock-open"></i></i></div>
+        </div>    
+        </div> -->
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src='./script.js'></script>
+</body>
+</html>
