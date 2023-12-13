@@ -55,7 +55,7 @@ for(let i=0;i<filterColor.length;i++){
 
 
     filterColor[i].addEventListener('dblclick',function(){
-        console.log('dblclick invoked')
+        //console.log('dblclick invoked')
         let allTickets=document.querySelectorAll('.ticket');
         for(let i=0;i<allTickets.length;i++){
             allTickets[i].remove();
