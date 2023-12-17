@@ -280,3 +280,16 @@ function getTicketInx(id){
     return ticketIdx
 }
 
+//info
+let infoButton = document.querySelector('.info')
+let information = document.querySelector('.info-abt-web')
+let infoButtonFlag=false
+infoButton.addEventListener('click',function(){
+    infoButtonFlag=!infoButtonFlag
+    if(infoButtonFlag){
+        information.style.display='flex'
+    }
+    else{
+        information.style.display='none'
+    }
+})
