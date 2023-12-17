@@ -293,3 +293,7 @@ infoButton.addEventListener('click',function(){
         information.style.display='none'
     }
 })
+    
+
+
+
